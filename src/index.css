@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.card{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 12px;
+    width: 250px;
+    height: 370px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: 0.2s ease;
+    h3{
+        font-size: 1rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+        color: #2c3e50;
+        margin-bottom: 5px;
+    }
+    p{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    button{
+        background-color: #d81414;
+        color: #fff;
+        border: none;
+        padding: 8px 14px;
+    }
+}
+.card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+.footer{
+    background-color: rgb(178, 181, 181);
+    text-align: center;
+}
