@@ -37,5 +37,6 @@
 }
 .footer{
     background-color: rgb(178, 181, 181);
-    text-align: center;
+    text-align: center; 
+    position: fixed;
 }
