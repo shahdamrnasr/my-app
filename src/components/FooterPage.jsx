@@ -1,7 +1,7 @@
 function FooterPage(){
   return(
     <div>
-      <footer className="footer fixed-bottom">
+      <footer className="footer">
         <p>	&copy; جميع الحقوق محفوظه لدى متجرنا</p>
       </footer>
     </div>
